@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+}
+
+footer {
+  display: flex;
+}
+.navbar {
+  background-color: transparent;
+  color: white;
+}
+.navbar a {
+  color: white;
+}
+
+#cards img {
+  height: 200px;
+}
+#quienessomosicono {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  #quienessomos {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  #cards {
+    padding-left: 10%;
+    padding-right: 5%;
+  }
+}
+@media (max-width: 767px) {
+  .card {
+  }
+}
