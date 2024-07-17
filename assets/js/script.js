@@ -12,4 +12,13 @@ $(document).ready(function () {
     $("#card4text").toggle("fast", function () {});
     });
     //toggler de texto en cards, funcion activada con click en el título
+    $("#quienessomos").dblclick(function () {
+        $("#quienessomos").toggleClass("blanco celeste");
+    });
+    $("#contacto").dblclick(function () {
+        $("#contacto").toggleClass("blanco celeste");
+    });
+    $("#destacados").dblclick(function () {
+        $("#destacados").toggleClass("blanco celeste");
+    });
 });

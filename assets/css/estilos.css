@@ -4,7 +4,12 @@ html {
 body {
   background-color: black;
 }
-
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 footer {
   display: flex;
 }
@@ -29,19 +34,25 @@ footer {
   height: 20px;
   width: 20px;
 }
+.blanco{
+  color: white
+}
+.celeste{
+  color: cadetblue
+}
 @media (max-width: 767px) {
-  #quienessomos {
+  #quienessomosdiv {
     display: none;
   }
 }
 @media (max-width: 767px) {
   #cards {
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
   }
 }
 @media (max-width: 767px) {
   .card {
-    padding-bottom: 1cm;
+    margin-bottom: 1cm;
   }
 }
